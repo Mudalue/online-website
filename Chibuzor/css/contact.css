@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Jacques+Francois+Shadow&display=swap');
+
+h2, p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+
+
+
+
+
+/* hedaer */
+header{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+.site-title{
+    font-family: 'Monoton', cursive;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.links{
+    font-size: 0.9em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* navigation-menu */
+.navbar-nav{
+    padding: 0.1em 0em;
+}
+.navbar-nav .nav-link{
+    font-size: 0.9em;
+    font-weight: 600;
+}
+.navbar-nav .nav-items .nav-links {
+    padding: 0 1.3em;
+}
+.navbar-nav .basket-icon{
+    margin-right: 6.5rem !important;
+}
+/* jumbotron link */
+.jumbotron{
+    background-image: url(/pictures/contactme.jpg);
+    background-size: cover;
+}
+.jumbotron h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+.jumbotron p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+/* form */
+.form input[type=text], select, textarea{
+    width: 50%;
+    border-radius: 15px;
+    resize: vertical;
+    align-content: center;
+    border-color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    padding: 0px 20px;
+    margin: 20px;
+    height: 30px;
+}
+.form input[type=submit]{
+    color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 50%;
+    border-color: black;
+}
+.form input::placeholder{
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+.form label{
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: black;
+}
+.form hr{
+    width: 30%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+.form button{
+    border-radius: 15px;
+}
+
+/* footer */
+footer{
+    background-color: black
+}
+footer h5{
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 600;
+}
+footer ul li{
+    font-family: 'Poppins', sans-serif ;
+    font-weight: 400;
+    font-size: 15px;
+}
+fa-facebook{
+    color: #3b5998;
+}
+.fa-instagram{
+    color: #3f729b;
+}
+.fa-linkedin{
+    color: #3f729b;
+}
+.fa-google-plus-g{
+    color: #dd4b39;
+}
+.fa-whatsapp{
+    color: #075e54;
+}
+.fa-cc-mastercard{
+    color: #cc0000;
+}
+.fa-cc-visa{
+    color: #172274;
+}
+.fa-credit-card{
+    color: #04d484;
+}
+.fa-bitcoin{
+    color: #f2a900;
+}
+.fa-apple-pay {
+    color: #66b447;
+}
+.fa-fedex{
+    color: #4D148C;
+}
+.fa-amazon{
+    color: #FF9900;
+}
+.fa-android{
+    color: #FF6347;
+}
+.fa-aws{
+    color: #000000;
+}
